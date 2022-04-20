@@ -4,7 +4,8 @@
 const express = require('express');
 const cors = require('cors');
 const logger = require('morgan');
-const routes = require('./routes');
+
+const routes = require('./routes');  // last added
 
 const app = express();
 app.use(express.json())
