@@ -58,7 +58,7 @@ const updateItem = (req, res) => {
 const deleteItem = async (req, res) => {
   try {
     const { id } = req.params;
-    const deleted = await Item.findByIdAndDelete(id)
+    const deleted = await Item.findByIdAndDelete(id)  //method from MongoDB
     if (deleted) {
       return res.status(200).send('Item deleted');
     }
