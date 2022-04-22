@@ -9,3 +9,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//then go to logical part: routes/items.js
