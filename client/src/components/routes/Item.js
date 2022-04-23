@@ -34,7 +34,7 @@ const Items = () => {
             //the URL link follows App.js
             const response = await axios.get(`http://localhost:3000/api/items/${id}`)
             console.log('response',response)
-            const result = response.data.item;
+            const result = response.data.item
             console.log('res',result )
             setItems(result)
             return result;
@@ -85,4 +85,4 @@ const Items = () => {
 
 export default Items;
 
-//then go to 
+//then go to shared/ItemForms.js
