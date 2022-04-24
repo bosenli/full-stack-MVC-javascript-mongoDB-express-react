@@ -72,11 +72,13 @@ const Items = () => {
                 <h4>{items.title}</h4>
                 <p>LINK:{items.link}</p>
                 <button onClick={()=> destroy()}>Delete Item</button>
+
                  <NavLink to={`/items/${id}/edit`}>
                      <button>Edit</button>
                  </NavLink>
-                <NavLink to='/items'> Back to all items
-                    </NavLink>
+
+                <NavLink to='/items'> Back to all items</NavLink>
+                
             </Layout>
             
         </div>

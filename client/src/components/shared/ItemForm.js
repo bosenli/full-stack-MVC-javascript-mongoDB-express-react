@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const ItemForm = ({ item, handleSubmit, handleChange, cancelPath }) => {
   return (
     <form onSubmit={handleSubmit}>
-      <label>Title</label>
+      <label>Title </label>
 
       <input
         placeholder="A vetted Item"
@@ -19,7 +19,7 @@ const ItemForm = ({ item, handleSubmit, handleChange, cancelPath }) => {
         onChange={(e) => handleChange(e)}      
       />
 
-      <button type="submit" >Submit</button>
+      <button type="submit" > Submit </button>
 
       <Link to={cancelPath}>
         <button>Cancel</button>
