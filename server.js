@@ -11,8 +11,8 @@ app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
 //    "dev": "nodemon server.js",
 //"start": "node server.js"
 
-//in the terminal:
-//run: node seed/items.js
+//back-End - in the terminal:
+//to connect to database - run: node seed/items.js
 //run: mongo
 //run: use thirdItemsDatabase
 //run: db.items.find()
