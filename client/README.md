@@ -1,3 +1,6 @@
+# start from BackEnd:
+
+open client folder and type commend "npm start"
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
