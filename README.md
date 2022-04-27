@@ -3,6 +3,8 @@ Netlify link: https://phenomenal-cat-0906aa.netlify.app/
 
 Heroku link: https://plan-app-1.herokuapp.com/api/plans
 
+Github source code link: https://github.com/bosenli/full-stack-MVC-javascript-mongoDB-express-react
+
 The super-awesome-final-project app, aka Plan App, is a daily planner for anyone who want to keep up with their daily plans.
 That's it. It is a very simple app, but it does full CRUD operation and I do plan on adding more features.
 
